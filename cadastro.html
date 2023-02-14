@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/formatos.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<title>Tia Jurema&copy; - Cadastro</title>
+</head>
+
+<body class="d-flex flex-column vh-100">
+	<header>
+		<nav class="menu nav navbar-dark bg-dark align-content-center">
+			<a class="nav-link link-light" href="home.html" aria-current="page">Menu</a>
+			<a class="nav-link link-light" href="receitas.html">Receitas</a>
+			<a id="lk" class="nav-link active" href="cadastro.html">Cadastros</a>
+		</nav>
+	</header>
+	<main class="flex-grow-1 container-fluid" style="background-color: rgb(233, 150, 122);">
+		<form action="home.html" method="get" class="row">
+			<fieldset class="flex-column mt-3 px-lg-5 px-md-5 px-sm-0">
+				<legend class="col-12 h1 mb-5">Efetue seu Cadastro</legend>
+				<div class="row mb-3">
+					<label for="nome" class="col-lg-2 col-form-label fs-5">Nome:</label>
+					<div class="col">
+						<input type="text" class="form-control form-control-lg" id="nome">
+					</div>
+				</div>
+
+				<div class="row mb-3">
+					<label for="email" class="col-lg-2 col-form-label fs-5">E-mail:</label>
+					<div class="col">
+						<input type="email" class="form-control form-control-lg" id="email">
+					</div>
+				</div>
+
+				<div class="row mb-3">
+					<label for="cep" class="col-lg-2 col-form-label fs-5">CEP:</label>
+					<div class="col-auto">
+						<input type="number" class="form-control form-control-lg" id="cep">
+					</div>
+				</div>
+				<div class="row mb-3">
+					<label for="rua" class="col-lg-2 col-form-label fs-5">Rua:</label>
+					<div class="col">
+						<input type="text" class="form-control form-control-lg" id="rua">
+					</div>
+				</div>
+
+				<div class="row mb-3">
+					<label for="numero" class="col-lg-2 col-form-label fs-5">Número:</label>
+					<div class="col-auto">
+						<input type="email" class="form-control form-control-lg" id="numero">
+					</div>
+					<label for="complemento" class="col-lg-3 col-form-label fs-5">Complemento:</label>
+					<div class="col">
+						<input type="text" class="form-control form-control-lg" id="complemento">
+					</div>
+				</div>
+
+				<div class="row mb-3">
+					<label for="cidade" class="col-lg-2 col-form-label fs-5">Cidade:</label>
+					<div class="col">
+						<input type="text" class="form-control form-control-lg" id="email">
+					</div>
+					<label for="uf" class="col-lg-2 col-form-label fs-5">UF:</label>
+					<div class="col-3">
+						<input type="text" class="form-control form-control-lg" id="uf">
+					</div>
+				</div>
+				<button type="submit" class="btn btn-primary col-4 offset-4 mt-4">Cadastrar</button>
+				</div>
+				</div>
+			</fieldset>
+		</form>
+	</main>
+	<footer class="bg-dark text-white">
+		<p class="text-center m-0">&copy Jurema 2022</p>
+	</footer>
+</body>
+
+</html>
